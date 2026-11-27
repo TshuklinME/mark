@@ -1767,6 +1767,25 @@
      "src": "content/m18/04.jpg",
      "w": 1200,
      "h": 1600
+    },
+    {
+     "type": "image",
+     "src": "content/m18/05.jpg",
+     "w": 1280,
+     "h": 921
+    },
+    {
+     "type": "image",
+     "src": "content/m18/06.jpg",
+     "w": 1027,
+     "h": 1280
+    },
+    {
+     "type": "video",
+     "src": "content/m18/07.mp4",
+     "poster": "content/m18/07_poster.jpg",
+     "w": 720,
+     "h": 1280
     }
    ],
    "title": "1,5 года"
