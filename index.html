@@ -159,7 +159,7 @@ const deco2 = document.getElementById('deco2');
 const list = document.getElementById('list');
 let openItem = null;
 
-fetch('content.json').then(r=>r.json()).then(data=>{
+fetch('content.json',{cache:'no-cache'}).then(r=>r.json()).then(data=>{
   data.sections.forEach((sec,i)=>list.appendChild(makeItem(sec,i)));
   observeIn();
   const h = location.hash.match(/^#s-(.+)$/); if(h){const it=document.getElementById('s-'+h[1]); if(it) toggle(it,true);}
